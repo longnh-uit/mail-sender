@@ -1,0 +1,33 @@
+head
+  style.
+
+    * {
+        font-family: sans-serif;
+    }
+    h2 {
+        color: #524d4b;
+    }
+    p {
+        color: #000;
+        font-size: 16px
+    }
+    a {
+        margin-top: 15px;
+        background-color: #966A57;
+        border: none;
+        color: white !important;
+        padding: 16px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+
+h2 Welcome to Luviana
+p Dear #{name},
+p
+  | Thanks for signing up for Luviana. To complete the
+  | sign-up process, please click the button below.
+a(href=`${url}`) Confirm Email Address
